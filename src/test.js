@@ -13,13 +13,19 @@ const buttonFilter = document.getElementById(".button");
 // });
 
 buttonFilter.addEventListener("click", function () {
-  items.forEach(function (item) {
-    const tBlock = item.querySelector(".t-block");
-    //const labelCheckbox = checkBox.querySelector(".label").innerText;
+  for (const item of items) {
     if (tBlock.innerText === "Eklips") {
       item.style.display = "block";
     } else {
       item.style.display = "none";
     }
-  });
+    // items.forEach(function (item) {
+    //   const tBlock = item.querySelector(".t-block");
+    //   //const labelCheckbox = checkBox.querySelector(".label").innerText;
+    //   if (tBlock.innerText === "Eklips") {
+    //     item.style.display = "block";
+    //   } else {
+    //     item.style.display = "none";
+    //   }
+  }
 });
