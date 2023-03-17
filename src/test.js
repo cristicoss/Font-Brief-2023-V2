@@ -11,7 +11,7 @@ const buttonFilter = document.querySelector(".button");
 //     item.style.display = "none";
 //   }
 // });
-
+console.log(buttonFilter);
 buttonFilter.addEventListener("click", function () {
   for (const item of items) {
     const tBlock = item.querySelector(".t-block");
@@ -29,5 +29,4 @@ buttonFilter.addEventListener("click", function () {
     //     item.style.display = "none";
     //   }
   }
-  console.log(tBlock.innerText);
 });
