@@ -20,6 +20,7 @@ buttonFilter.addEventListener("click", function () {
     } else {
       item.style.display = "none";
     }
+    console.log(tBlock.innerText);
     // items.forEach(function (item) {
     //   const tBlock = item.querySelector(".t-block");
     //   //const labelCheckbox = checkBox.querySelector(".label").innerText;
