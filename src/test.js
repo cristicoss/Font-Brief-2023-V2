@@ -1,6 +1,6 @@
 "use strict";
 const items = document.querySelectorAll(".item");
-const checkBox = document.querySelector(".checkbox");
+const checkBox = document.getElementById("checkbox");
 
 // items.forEach(function (item) {
 //   const tBlock = item.querySelector(".t-block");
