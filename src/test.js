@@ -1,6 +1,6 @@
 "use strict";
 const items = document.querySelectorAll(".item");
-const buttonFilter = document.getElementById(".button");
+const buttonFilter = document.querySelector(".button");
 
 // items.forEach(function (item) {
 //   const tBlock = item.querySelector(".t-block");
