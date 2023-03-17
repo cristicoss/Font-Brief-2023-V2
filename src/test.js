@@ -12,14 +12,14 @@ const checkBox = document.querySelector(".checkbox");
 //   }
 // });
 
-checkBox.addEventListener("click", function () {
-  items.forEach(function (item) {
-    const tBlock = item.querySelector(".t-block");
-    const labelCheckbox = checkBox.querySelector(".label").innerText;
-    if (tBlock.innerText === labelCheckbox) {
-      item.style.display = "block";
-    } else {
-      item.style.display = "none";
-    }
-  });
-});
+// checkBox.addEventListener("click", function () {
+//   items.forEach(function (item) {
+//     const tBlock = item.querySelector(".t-block");
+//     const labelCheckbox = checkBox.querySelector(".label").innerText;
+//     if (tBlock.innerText === labelCheckbox) {
+//       item.style.display = "block";
+//     } else {
+//       item.style.display = "none";
+//     }
+//   });
+// });
