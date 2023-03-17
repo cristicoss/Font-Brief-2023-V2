@@ -1,6 +1,6 @@
 "use strict";
 const items = document.querySelectorAll(".item");
-const checkBox = document.getElementById("checkbox");
+const buttonFilter = document.getElementById(".button");
 
 // items.forEach(function (item) {
 //   const tBlock = item.querySelector(".t-block");
@@ -12,11 +12,11 @@ const checkBox = document.getElementById("checkbox");
 //   }
 // });
 
-checkBox.addEventListener("click", function () {
+buttonFilter.addEventListener("click", function () {
   items.forEach(function (item) {
     const tBlock = item.querySelector(".t-block");
-    const labelCheckbox = checkBox.querySelector(".label").innerText;
-    if (tBlock.innerText === "Giselle") {
+    //const labelCheckbox = checkBox.querySelector(".label").innerText;
+    if (tBlock.innerText === "Eklips") {
       item.style.display = "block";
     } else {
       item.style.display = "none";
