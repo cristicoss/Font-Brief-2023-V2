@@ -14,6 +14,7 @@ const buttonFilter = document.getElementById(".button");
 
 buttonFilter.addEventListener("click", function () {
   for (const item of items) {
+    const tBlock = item.querySelector(".t-block");
     if (tBlock.innerText === "Eklips") {
       item.style.display = "block";
     } else {
